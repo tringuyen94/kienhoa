@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Paper, Tabs, Tab, makeStyles, Box, Typography, Grid, Divider } from '@material-ui/core';
+import { Paper, Tabs, Tab, makeStyles  } from '@material-ui/core';
 import PriceTabOne from './PriceTabOne';
 import PriceTabTwo from './PriceTabTwo';
-
+import TabPanel from '../../components/TabPanel';
 const Price = () => {
    const classes = styles();
    const [value, setValue] = useState(0);
@@ -36,22 +36,7 @@ const Price = () => {
 
    )
 }
-function TabPanel(props) {
-   const { children, value, index, ...other } = props;
-   return (
-      <div
-         role="tabpanel"
-         hidden={value !== index}
-         {...other}
-      >
-         {value === index && (
-            <Box p={3}>
-               {children}
-            </Box>
-         )}
-      </div>
-   );
-}
+
 
 const styles = makeStyles({
    root: {

@@ -3,7 +3,7 @@ const Intro = () => {
    const classes = styles()
    return (
       <Grid container justifyContent="center" className={classes.introWrapper}>
-         <Grid md={4}>
+         <Grid item md={4}>
             <Typography variant="h5" className={classes.introTitle}>Kiến trúc, nội thất & xây dựng</Typography>
             <Typography  className={classes.introBody}>
                Hơn 10 năm kinh nghiệm trong ngành kiến trúc, nội thất và xây dựng,
@@ -11,7 +11,6 @@ const Intro = () => {
                cung cấp dịch vụ cho khách hàng tư nhân và doanh nghiệp.
             </Typography>
          </Grid>
-
       </Grid>
    )
 }

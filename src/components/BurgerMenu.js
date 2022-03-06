@@ -1,25 +1,29 @@
 import React, { useState } from 'react'
 import { Hidden, makeStyles } from '@material-ui/core'
+import clsx from 'clsx'
+import logoKienHoa from "../assets/images/logo_kienhoa.jpg"
 
 const BurgerMenu = () => {
    const classes = useStyles()
    const [isActiveBurger, setIsActiveBurger] = useState(false)
    return (
       <Hidden smUp>
-         <div className={isActiveBurger ? `${classes.burgerButton} ${classes.activedBurger}` : classes.burgerButton}
+         <div className={clsx(classes.burgerButton, { [classes.activedBurger]: isActiveBurger })}
             onClick={() => setIsActiveBurger(!isActiveBurger)}
          >
             <div></div>
             <div></div>
             <div></div>
          </div>
-         <ul className={isActiveBurger ? `${classes.burgerNavigator} ${classes.activedNavigator}` : classes.burgerNavigator}>
-            <li><a href="#">Dự án</a></li>
-            <li><a href="#">Xây dựng và hoàn thiện</a></li>
-            <li><a href="#">Nội thất</a></li>
-            <li><a href="#">Phong thuỷ</a></li>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Liên hệ</a></li>
+         <ul className={clsx(classes.burgerNavigator, { [classes.activedNavigator]: isActiveBurger })}>
+            <li><a href='/'>Trang chủ</a></li>
+            <li><a href="/du-an">Dự án</a></li>
+            <li><a href="/xay-dung-va-hoan-thien">Xây dựng và hoàn thiện</a></li>
+            <li><a href="/noi-that">Nội thất</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/gioi-thieu">Giới thiệu</a></li>
+            <li><a href="/lien-he">Liên hệ</a></li>
+            <img src={logoKienHoa} alt="#logo"/>
          </ul>
       </Hidden>
    )
@@ -27,7 +31,7 @@ const BurgerMenu = () => {
 const useStyles = makeStyles(theme => ({
    burgerButton: {
       cursor: "pointer",
-      margin: "15px 0",
+      margin: "15px 20px",
       padding: "5px",
       backgroundColor: "black",
       border: "1px solid black",
@@ -54,18 +58,25 @@ const useStyles = makeStyles(theme => ({
    },
    burgerNavigator: {
       position: "absolute",
-      top:-25,
+      top: -12,
       opacity: 0,
       listStyle: "none",
       backgroundColor: "black",
       zIndex: 10,
       transform: "translate(-200px,100px)",
       transition: "all .5s ease",
-      padding: "20px 25px",
+      padding: "18px 25px 0px 20px",
       borderRadius: "10px",
       "& > li": {
          padding: "15px 20px",
          borderBottom: "1px solid #eee"
+      },
+      "& img":{
+         width:"60px",
+         height:"60px",
+         margin:"10px",
+         borderRadius:'8px',
+         border:"#eee 1px solid"
       },
       "& a": {
          fontWeight: 600,

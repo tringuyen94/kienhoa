@@ -4,8 +4,7 @@ const ScrollToTop = () => {
    const classes = styles()
    const handleScrollToTop = () => {
       window.scroll({
-         top: 0,
-         behavior: 'smooth'
+         top:0,
       })
    }
    return (

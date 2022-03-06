@@ -18,16 +18,16 @@ const CarouselComp = () => {
          dynamicHeight={true} 
       >
          <div>
-            <img src={Carousel1} />
+            <img src={Carousel1} alt="carousel" />
          </div>
          <div>
-            <img src={Carousel2} />
+            <img src={Carousel2} alt="carousel" />
          </div>
          <div>
-            <img src={Carousel3} />
+            <img src={Carousel3} alt="carousel"  />
          </div>
          <div>
-            <img src={Carousel4} />
+            <img src={Carousel4} alt="carousel" />
          </div>
       </Carousel>
    )

@@ -1,7 +1,7 @@
 import { Box, Typography } from "@material-ui/core"
 const Commmitments = () => {
    return (
-      <Box marginX={10} marginY={6}>
+      <Box paddingX={10} paddingY={2.5}>
          <Typography variant="h5">Thiết kế trọn gói</Typography>
          <Typography>
    Hợp đồng thi công trọn gói (phần thô, hoàn thiện, nội thất) suất đầu tư > 10tr/m² được giảm 30% phí thiết kế
