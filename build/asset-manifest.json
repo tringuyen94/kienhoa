@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "./static/css/main.12383141.chunk.css",
+    "main.js": "./static/js/main.3032802c.chunk.js",
+    "main.js.map": "./static/js/main.3032802c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.78ac9250.js",
+    "runtime-main.js.map": "./static/js/runtime-main.78ac9250.js.map",
+    "static/css/2.ed1298f3.chunk.css": "./static/css/2.ed1298f3.chunk.css",
+    "static/js/2.94ae6959.chunk.js": "./static/js/2.94ae6959.chunk.js",
+    "static/js/2.94ae6959.chunk.js.map": "./static/js/2.94ae6959.chunk.js.map",
+    "static/js/3.1216fb49.chunk.js": "./static/js/3.1216fb49.chunk.js",
+    "static/js/3.1216fb49.chunk.js.map": "./static/js/3.1216fb49.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "./static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.12383141.chunk.css.map": "./static/css/main.12383141.chunk.css.map",
+    "static/js/2.94ae6959.chunk.js.LICENSE.txt": "./static/js/2.94ae6959.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/MyFont.93cd59ff.ttf",
+    "static/media/add-blog-thumb.92a45a50.jpg": "./static/media/add-blog-thumb.92a45a50.jpg",
+    "static/media/add-product-thumb.74a2e030.jpg": "./static/media/add-product-thumb.74a2e030.jpg",
+    "static/media/add-project-thumb.d5c6c022.jpg": "./static/media/add-project-thumb.d5c6c022.jpg",
+    "static/media/carousel_1.34eb39aa.jpg": "./static/media/carousel_1.34eb39aa.jpg",
+    "static/media/carousel_2.6ac7a8b3.jpg": "./static/media/carousel_2.6ac7a8b3.jpg",
+    "static/media/carousel_3.9437b21b.jpg": "./static/media/carousel_3.9437b21b.jpg",
+    "static/media/carousel_4.2f3bca3e.jpg": "./static/media/carousel_4.2f3bca3e.jpg",
+    "static/media/logo_kienhoa.f9eb7f2a.jpg": "./static/media/logo_kienhoa.f9eb7f2a.jpg",
+    "static/media/portfolio_1.e1bc7b2c.jpg": "./static/media/portfolio_1.e1bc7b2c.jpg",
+    "static/media/portfolio_2.8341760c.jpg": "./static/media/portfolio_2.8341760c.jpg",
+    "static/media/portfolio_3.d377ae45.jpg": "./static/media/portfolio_3.d377ae45.jpg",
+    "static/media/portfolio_4.a61923e6.jpg": "./static/media/portfolio_4.a61923e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78ac9250.js",
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.94ae6959.chunk.js",
+    "static/css/main.12383141.chunk.css",
+    "static/js/main.3032802c.chunk.js"
+  ]
+}
