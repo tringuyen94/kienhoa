@@ -3,7 +3,7 @@ import { Button, makeStyles, TextField, Typography, InputAdornment, IconButton }
 import { AccountCircle, LockRounded, Visibility, VisibilityOff } from "@material-ui/icons"
 import * as Yup from 'yup'
 import { Formik } from "formik"
-import LogoKienHoa from '../../assets/images/logo_kienhoa.jpg'
+import LogoKienHoa from '../../assets/images/logo_kienhoa.png' 
 import { useDispatch } from "react-redux"
 import { login } from "../../redux/actions/auth.actions"
 import { useHistory } from "react-router"

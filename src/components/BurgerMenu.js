@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Hidden, makeStyles } from '@material-ui/core'
 import clsx from 'clsx'
-import logoKienHoa from "../assets/images/logo_kienhoa.jpg"
+import logoKienHoa from "../assets/images/logo_kienhoa.png"
 
 const BurgerMenu = () => {
    const classes = useStyles()

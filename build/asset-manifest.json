@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.12383141.chunk.css",
-    "main.js": "./static/js/main.3032802c.chunk.js",
-    "main.js.map": "./static/js/main.3032802c.chunk.js.map",
+    "main.js": "./static/js/main.52e3e008.chunk.js",
+    "main.js.map": "./static/js/main.52e3e008.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.78ac9250.js",
     "runtime-main.js.map": "./static/js/runtime-main.78ac9250.js.map",
     "static/css/2.ed1298f3.chunk.css": "./static/css/2.ed1298f3.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/carousel_2.6ac7a8b3.jpg": "./static/media/carousel_2.6ac7a8b3.jpg",
     "static/media/carousel_3.9437b21b.jpg": "./static/media/carousel_3.9437b21b.jpg",
     "static/media/carousel_4.2f3bca3e.jpg": "./static/media/carousel_4.2f3bca3e.jpg",
-    "static/media/logo_kienhoa.f9eb7f2a.jpg": "./static/media/logo_kienhoa.f9eb7f2a.jpg",
+    "static/media/logo_kienhoa.056c3eaa.png": "./static/media/logo_kienhoa.056c3eaa.png",
     "static/media/portfolio_1.e1bc7b2c.jpg": "./static/media/portfolio_1.e1bc7b2c.jpg",
     "static/media/portfolio_2.8341760c.jpg": "./static/media/portfolio_2.8341760c.jpg",
     "static/media/portfolio_3.d377ae45.jpg": "./static/media/portfolio_3.d377ae45.jpg",
@@ -33,6 +33,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.94ae6959.chunk.js",
     "static/css/main.12383141.chunk.css",
-    "static/js/main.3032802c.chunk.js"
+    "static/js/main.52e3e008.chunk.js"
   ]
 }

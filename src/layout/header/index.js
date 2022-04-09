@@ -1,12 +1,12 @@
 import { Grid, Hidden, Button, makeStyles } from "@material-ui/core"
-import logoKienHoa from '../../assets/images/logo_kienhoa.jpg'
+import logoKienHoa from  '../../assets/images/logo_kienhoa.png'
 import BurgerMenu from "../../components/BurgerMenu";
 import clsx from "clsx";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 const Header = ({ pathname }) => {
    const classes = styles()
    const actived = pathname.split('/')
-   const history =useHistory(23   )
+   const history =useHistory()
    return (
       <Grid container className={classes.header} alignItems="center">
          <Hidden smDown>
