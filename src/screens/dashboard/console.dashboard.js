@@ -8,15 +8,15 @@ const ConsoleDashBoard = () => {
    const history = useHistory()
    return (
       <Grid container className={classes.consoleWrapper}>
-         <Grid item xs={6} sm={6} md={4} className={classes.consoleItem} onClick={() => history.push('/admin/create-blog')}>
+         <Grid item xs={12} sm={6} md={4} className={classes.consoleItem} onClick={() => history.push('/admin/create-blog')}>
             <img src={AddBlogThumb} alt="#console-thumb" />
             <Typography variant="h5" className={classes.consoleInfo}>Tạo Blog</Typography>
          </Grid>
-         <Grid item xs={6} sm={6} md={4} className={classes.consoleItem} onClick={() => history.push('/admin/create-project')}>
+         <Grid item xs={12} sm={6} md={4} className={classes.consoleItem} onClick={() => history.push('/admin/create-project')}>
             <img src={AddProjectThumb} alt="#console-thumb" />
             <Typography variant="h5" className={classes.consoleInfo}>Tạo dự án</Typography>
          </Grid>
-         <Grid item xs={6} sm={6} md={4} className={classes.consoleItem} onClick={() => history.push('/admin/create-product')}>
+         <Grid item xs={12} sm={6} md={4} className={classes.consoleItem} onClick={() => history.push('/admin/create-product')}>
             <img src={AddProductThumb} alt="#console-thumb" />
             <Typography variant="h5" className={classes.consoleInfo}>Thêm sản phẩm</Typography>
          </Grid>
@@ -39,7 +39,7 @@ const styles = makeStyles({
       marginRight:"40px",
       boxShadow: "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
       '& img': {
-         transition: 'transform .2s ease',
+         transition: 'all 0.2s ease',
          width: "100%",
          height: "100%",
          borderRadius: "20px",
