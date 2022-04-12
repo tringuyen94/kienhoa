@@ -1,5 +1,5 @@
 import axios from 'axios'
-export const DOMAIN = "http://kienhoa.vn"
+export const DOMAIN = "http://kienhoa.vn:5050"
 const API = `${DOMAIN}/api`
 
 const restConnector = axios.create({
